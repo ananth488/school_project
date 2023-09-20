@@ -45,7 +45,7 @@ const Home = () => {
                 </div>
                 <div className={styles.clientrating_main_second}>
                     <h2>We Have Over 99% Client Satisfaction Ratings</h2>
-                    <img src='section-heading.jpg'></img>
+                    <img alt="Error" src='section-heading.jpg'></img>
                 </div>
                 <div className={styles.clientrating_main_second_content}>
                     <div className='container'>
@@ -54,7 +54,7 @@ const Home = () => {
                                 <div className='row'>
                                     <div className={styles.clientrating_main_second_img}>
                                         <div className='col-xs-12 col-lg-3'>
-                                            <img src='PMKhodke.jpg'></img>
+                                            <img alt="Error" src='PMKhodke.jpg'></img>
                                         </div>
                                     </div>
                                     <div className='col-9'>
@@ -62,19 +62,15 @@ const Home = () => {
                                             <h4>Dr. P. M. Khodke</h4>
                                             <p>Central Project Advisor at NPIU, Formerly Principal of GEC Karad</p>
                                         </div>
-
                                     </div>
-
-
                                 </div>
-
                                 <p>The e-Governance ERP has been customized with functional requirements of GCEK & system is fully functional. This ERP campus software generates various MIS reports which are highly beneficial to us.</p>
                             </div>
                             <div className='col-sm-12 col-lg-4 '>
                                 <div className='row'>
                                     <div className={styles.clientrating_main_second_img}>
                                         <div className='col-xs-12 col-lg-3'>
-                                            <img src='GopalMugeraya.jpg'></img>
+                                            <img alt="Error" src='GopalMugeraya.jpg'></img>
                                         </div>
                                     </div>
                                     <div className='col-9'>
@@ -92,7 +88,7 @@ const Home = () => {
                                 <div className='row'>
                                     <div className={styles.clientrating_main_second_img}>
                                         <div className='col-xs-12 col-lg-3'>
-                                            <img src='SadanandGokhale.jpg'></img>
+                                            <img alt="Error" src='SadanandGokhale.jpg'></img>
                                         </div>
                                     </div>
                                     <div className='col-9'>
@@ -122,7 +118,7 @@ const Home = () => {
             <div className={styles.key_statistics_main}>
                 <div className={styles.key_statistics_main_first}>
                     <h2>Key Statistics  </h2>
-                    <img src='section.webp'></img>
+                    <img alt="Error"  src='section.webp'></img>
                 </div>
                 <div className={styles.key_statistics_main_second}>
                     <div className={styles.key_statistics_main_second_Exp}>
@@ -149,7 +145,7 @@ const Home = () => {
             <div className={styles.education_ERP_main}>
                 <h1>Education ERP Products</h1>
                 <center>
-                    <img src='section-heading.jpg'></img>
+                    <img alt="Error" src='section-heading.jpg'></img>
                 </center>
                 <p>MasterSoft Education ERP Software is a cloud-based software for schools, colleges, and universities that automates all major processes of an Educational institute. The Education ERP campus system ensures management of all academic & non-academic operations and ensuring transparency across all departments.</p>
                 <p>MasterSoft ERP (Enterprise Resource Planning) software gives complete control over all the major processes & activities of an Educational institute. This ERP campus software tracks and manages activities of all the departments of the institute including the admin department, finance, library, HR, etc.</p>
@@ -178,7 +174,7 @@ const Home = () => {
                             </div>
                             <div className='col-sm-12 col-lg-6'>
                                 <div className={styles.ERP_Implementation_main_img1}>
-                                    <img src='school-erp-dashboard.webp'></img>
+                                    <img alt="Error" src='school-erp-dashboard.webp'></img>
                                 </div>
                             </div>
                         </div>
@@ -192,7 +188,7 @@ const Home = () => {
             <div className={styles.Automate_main}>
                 <h1>Yes, I Want To Automate My Campus!</h1>
                 <center>
-                    <img src='section.webp'></img>
+                    <img alt="Error" src='section.webp'></img>
                 </center>
                 <p>We promise to offer you the best Education ERP, smooth implementation and constant support!</p>
                 <p>We offer campus management solutions that improve institutional productivity,boost efficiency, and positive outcome ratio by streamlining work processes and enabling institutions go paperless</p>
@@ -203,17 +199,17 @@ const Home = () => {
                 <h1>Our Esteemed Clients</h1>
                 <div className={styles.our_clients_main_img}>
                     <center>
-                        <img src='section-heading.jpg'></img>
+                        <img alt="Error" src='section-heading.jpg'></img>
                     </center>
                 </div>
 
                 <div className={styles.our_clients_main_first}>
-                    <div className={styles.our_clients_main_first_flex1}><img src='BIT-mesra.webp'></img></div>
-                    <div className={styles.our_clients_main_first_flex2}><img src='Deccan_Education_Society_Pune.webp'></img></div>
-                    <div className={styles.our_clients_main_first_flex3}><img src='Mizoram-University.webp'></img></div>
-                    <div className={styles.our_clients_main_first_flex4}><img src='NIT-Srinagar.webp'></img></div>
-                    <div className={styles.our_clients_main_first_flex5}><img src='Ramnarain-Ruia.webp'></img></div>
-                    <div className={styles.our_clients_main_first_flex6}><img src='SVNIT-Surat.webp'></img></div>
+                    <div className={styles.our_clients_main_first_flex1}><img alt="Error"src='BIT-mesra.webp'></img></div>
+                    <div className={styles.our_clients_main_first_flex2}><img alt="Error" src='Deccan_Education_Society_Pune.webp'></img></div>
+                    <div className={styles.our_clients_main_first_flex3}><img alt="Error" src='Mizoram-University.webp'></img></div>
+                    <div className={styles.our_clients_main_first_flex4}><img alt="Error" src='NIT-Srinagar.webp'></img></div>
+                    <div className={styles.our_clients_main_first_flex5}><img alt="Error" src='Ramnarain-Ruia.webp'></img></div>
+                    <div className={styles.our_clients_main_first_flex6}><img alt="Error" src='SVNIT-Surat.webp'></img></div>
                 </div>
             </div>
             {/* ERP Implementation */}
@@ -221,7 +217,7 @@ const Home = () => {
                 <h1>Our Esteemed Clients</h1>
                 <div className={styles.our_clients_main_img}>
                     <center>
-                        <img src='section-heading.jpg'></img>
+                        <img alt="Error" src='section-heading.jpg'></img>
                     </center>
                 </div>
                 <div className='container'>
@@ -229,7 +225,7 @@ const Home = () => {
                         <div className='row'>
                             <div className='col-sm-12 col-lg-6'>
                                 <div className={styles.ERP_Implementation_main_img1}>
-                                    <img src='cloud-implementation.webp'></img>
+                                    <img alt="Error" src='cloud-implementation.webp'></img>
                                 </div>
                             </div>
                             <div className='col-sm-12 col-lg-6'>
