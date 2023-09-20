@@ -1,0 +1,211 @@
+.footer_main {
+    background-color: rgb(244, 224, 191);
+    padding-top: 20px;
+}
+
+.footer_main ul {
+    gap: 0px !important;
+}
+
+.footer_main h4 {
+    cursor: pointer;
+}
+
+.footer_main h4:hover {
+    color: rgb(41, 112, 242)
+}
+
+.footer_main ul li {
+    list-style: none;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.footer_main ul li:hover {
+    list-style: none;
+    padding-top: 10px;
+    cursor: pointer;
+    color: rgb(41, 112, 242);
+}
+
+.footer_main_copyright p {
+    padding-top: 14px;
+}
+
+.footer_main_copyright_icons ul li {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.footer_main_copyright_icons_list {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.footer_main_copyright_icons_list span {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.footer_main_copyright_icons_list li {
+    padding-left: 15px;
+
+}
+
+.footer_main_copyright {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+}
+
+
+
+/* media screen mobile */
+
+@media screen and (min-width: 100px) and (max-width:336px) {
+    .footer_main_copyright_icons_list {
+        display: grid;
+        font-size: 30px;
+        border-radius: 50%;
+    }
+
+    .footer_main ul li {
+        list-style: none;
+        cursor: pointer;
+    }
+
+    .footer_main ul li:hover {
+        list-style: none;
+        cursor: pointer;
+        color: rgb(41, 112, 242);
+    }
+
+    .footer_main {
+        background-color: rgb(244, 224, 191);
+        padding-top: 10px;
+    }
+
+    .footer_main_copyright {
+        display: grid !important;
+        grid-template-columns: auto !important;
+    }
+
+    .footer_main_copyright {
+        display: grid;
+        grid-template-columns: auto;
+       padding: 20px;
+        
+    }
+    .footer_main_copyright_col2{
+        display: flex;
+        
+    }
+    .footer_main_copyright p {
+        padding-left: 32px;
+    }
+    .footer_main_para{
+        padding-left: 30px;
+        padding-top: 5px;
+    }
+    .footer_main_copyright_icons_list span {
+        
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 336px) and (max-width:376px) {
+    .footer_main_copyright_icons_list {
+        display: grid;
+        font-size: 30px;
+        border-radius: 50%;
+    }
+
+    .footer_main ul li {
+        list-style: none;
+        cursor: pointer;
+    }
+
+    .footer_main ul li:hover {
+        list-style: none;
+        cursor: pointer;
+        color: rgb(41, 112, 242);
+    }
+
+    .footer_main {
+        background-color: rgb(244, 224, 191);
+        padding-top: 10px;
+    }
+
+    .footer_main_copyright {
+        display: grid !important;
+        grid-template-columns: auto !important;
+    }
+
+    .footer_main_copyright {
+        display: grid;
+        grid-template-columns: auto;
+       padding: 20px;
+        
+    }
+    .footer_main_copyright_col2{
+        display: flex;
+        
+    }
+    .footer_main_copyright p {
+        padding-left: 32px;
+    }
+    .footer_main_para{
+        padding-left: 30px;
+    padding-top: 5px;
+    font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width:426px) {
+    .footer_main_copyright_icons_list {
+        display: grid;
+        font-size: 30px;
+        border-radius: 50%;
+    }
+
+    .footer_main ul li {
+        list-style: none;
+        cursor: pointer;
+    }
+
+    .footer_main ul li:hover {
+        list-style: none;
+        cursor: pointer;
+        color: rgb(41, 112, 242);
+    }
+
+    .footer_main {
+        background-color: rgb(244, 224, 191);
+    }
+
+    .footer_main_copyright {
+        display: grid !important;
+        grid-template-columns: auto !important;
+    }
+
+    .footer_main_copyright {
+        display: grid;
+        grid-template-columns: auto;
+       padding: 20px;
+        
+    }
+    .footer_main_copyright_col2{
+        display: flex;
+        
+    }
+    .footer_main_copyright p {
+        padding-left: 32px;
+    }
+    .footer_main_para p{
+        padding-left: 30px ;
+        padding-top: 10px ;
+        font-size: 18px;
+    }
+}
