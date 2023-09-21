@@ -298,7 +298,9 @@
         padding-left: 30px;
     }
     .clientrating_main_second_img{
-        padding-left: 60px;
+        width: 43%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .clientrating_main_second_content_text{
         padding: 10px;
@@ -541,7 +543,9 @@
         padding-left: 30px;
     }
     .clientrating_main_second_img{
-        padding-left: 104px;
+        margin-left: auto;
+    margin-right: auto;
+    width: 27%;
     }
     .clientrating_main_second_content_text{
         padding: 10px;
@@ -584,12 +588,15 @@
     }
     .key_statistics_main_second{
         display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
        
     }
     
     .key_statistics_main {
         background-image: url(/public/customer.jpg);
-        padding: 50px;
+        padding: 13px 0px;
         margin-bottom: 30px;
     }
     .key_statistics_main_second_Exp{
@@ -614,13 +621,15 @@
         padding: 15px;
         width: 200px;
         margin-bottom: 15px;
-        margin-left: 72px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .key_statistics_main_second_Exp1_img{
         margin-bottom: 15px;
         border-radius: 10px;
         color: rgb(255, 255, 255);
-        margin-left: 72px;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
         padding: 15px;
         width: 200px;
@@ -786,7 +795,9 @@
         padding-left: 30px;
     }
     .clientrating_main_second_img{
-        padding-left: 104px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
     }
     .clientrating_main_second_content_text{
         padding: 10px;
@@ -799,7 +810,7 @@
         height: 83px;
     }
     .clientrating_main_second_content_para p{
-        font-size: 12px;
+        font-size: 15px;
     }
     
     .clientrating_main_third button{
@@ -829,6 +840,9 @@
     }
     .key_statistics_main_second{
         display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
        
     }
     
@@ -859,13 +873,15 @@
         padding: 15px;
         width: 200px;
         margin-bottom: 15px;
-        margin-left: 255px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .key_statistics_main_second_Exp1_img{
         margin-bottom: 15px;
         border-radius: 10px;
         color: rgb(255, 255, 255);
-        margin-left: 255px;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
         padding: 15px;
         width: 200px;
