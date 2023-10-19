@@ -4,7 +4,6 @@ import styles from './Home.module.css'
 const Home = () => {
     return (
         <div className={styles.homepage_main}>
-
             {/* bannerimag */}
             <div className={styles.bannerimg_main}>
                 <div className={styles.bannerimg_main_first}>

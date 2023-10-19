@@ -1,24 +1,40 @@
 .navbar_main {
     display: grid;
-    grid-template-columns: 40% auto auto;
-    padding: 0 50px;
+    grid-template-columns: 50% auto auto;
+    padding: 20px 50px;
+    background-color: black;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .navbar_main_first img {
-    width: 100px;
-    height: 80px;
+    width: 41%;
+    height: 73px;
 }
 
 
 .navbar_main_liststyle {
      list-style: none;
-    text-align: center;
+     text-align: center;
 }
-
+.linkstyle{
+    text-decoration: none !important;
+    color: aquamarine !important;
+}
+a{
+    text-decoration: none !important;
+    color: rgb(254, 254, 254);
+    font-size: 20px;
+}
+a:hover{
+    color: rgb(161, 161, 161);
+    cursor: pointer;
+}
 .navbar_main_second ul {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    padding-top: 30px;
+    padding-top: 20px;
     list-style: none;
 }
 
@@ -63,7 +79,15 @@
         width: 31px;
     }
 
-
+    a{
+        text-decoration: none !important;
+        color: rgb(254, 254, 254);
+        font-size: 20px;
+    }
+    a:hover{
+        color: rgb(161, 161, 161);
+        cursor: pointer;
+    }
     .navbar_main_lists {
         display: grid;
         grid-template-columns: auto;
@@ -154,7 +178,15 @@
 
     }
 
-
+    a{
+        text-decoration: none !important;
+        color: rgb(254, 254, 254);
+        font-size: 20px;
+    }
+    a:hover{
+        color: rgb(161, 161, 161);
+        cursor: pointer;
+    }
     .navbar_main_lists {
         display: grid;
         display: block;
@@ -163,7 +195,7 @@
         top: 70px;
         height: 38vh;
         right: 66px;
-        background-color: antiquewhite;
+        background-color: rgb(0, 0, 0);
         padding-bottom: 5px;
         width: 100%;
         transition: all 0.5s ease-out;
@@ -203,6 +235,7 @@
         position: absolute;
         top: 21%;
         left: 86%;
+        color: white;
     }
 
     .navbar_main_third_row {
@@ -233,8 +266,10 @@
     }
 
     .navbar_main_first img {
-        width: 70px;
-        height: 60px;
+        width: 181px;
+        height: 56px;
+        padding-top: 7px;
+        padding-left: 7px;
     }
 
     .navbar_main_lists li {
@@ -259,7 +294,15 @@
         width: 31px;
     }
 
-
+    a{
+        text-decoration: none !important;
+        color: rgb(254, 254, 254);
+        font-size: 20px;
+    }
+    a:hover{
+        color: rgb(161, 161, 161);
+        cursor: pointer;
+    }
     .navbar_main_lists {
         display: grid;
         grid-template-columns: auto;
@@ -267,7 +310,7 @@
         top: 70px;
         height: 35vh;
         right: 63px;
-        background-color: antiquewhite;
+        background-color: rgb(0, 0, 0);
         padding-bottom: 5px;
         width: 100%;
         transition: all 0.5s ease-out;
@@ -277,7 +320,6 @@
         display: grid;
         grid-template-columns: auto;
         width: 136px;
-        padding-top: 0px;
     }
 
     .navbar_main_third_row {
@@ -322,6 +364,7 @@
         position: absolute;
         top: 21%;
         left: 86%;
+        color: white;
     }
 
     .navbar_main_second {
@@ -330,8 +373,10 @@
     }
 
     .navbar_main_first img {
-        width: 70px;
-        height: 60px;
+        width: 181px;
+    height: 56px;
+    padding-top: 7px;
+    padding-left: 7px;
     }
 
     .navbar_main_lists li {
@@ -341,13 +386,24 @@
 @media screen and (min-width:600px) and (max-width:800px){
     .navbar_main {
         display: grid;
-        grid-template-columns: 10% auto auto;
+        grid-template-columns: 27% auto auto;
         padding: 0px 6px;
     }
     
+    a{
+        text-decoration: none !important;
+        color: rgb(254, 254, 254);
+        font-size: 20px;
+    }
+    a:hover{
+        color: rgb(161, 161, 161);
+        cursor: pointer;
+    }
     .navbar_main_first img {
-        width: 100px;
-        height: 80px;
+        width: 156px;
+        height: 62px;
+        padding-top: 10px;
+        padding-left: 5px;
     }
     
     
@@ -359,7 +415,7 @@
     .navbar_main_second ul {
         display: grid;
         grid-template-columns: auto auto auto auto auto;
-        padding-top: 30px;
+        padding-top: 20px;
         list-style: none;
     }
     
@@ -393,15 +449,23 @@
 @media screen and (min-width:800px) and (max-width:1067px) {
     .navbar_main {
         display: grid;
-        grid-template-columns: 10% auto auto;
+        grid-template-columns: 37% auto auto;
         padding: 0px 6px;
     }
     
     .navbar_main_first img {
-        width: 100px;
-        height: 80px;
+        width: 200px;
+    height: 91px;
     }
-    
+    a{
+        text-decoration: none !important;
+        color: rgb(254, 254, 254);
+        font-size: 20px;
+    }
+    a:hover{
+        color: rgb(161, 161, 161);
+        cursor: pointer;
+    }
     
     .navbar_main_liststyle {
          list-style: none;

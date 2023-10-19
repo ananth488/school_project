@@ -2,7 +2,8 @@
     /* background-image: url('bann erimg'); */
     height: 100%;
     width: 100%;
-    background-image: url(/public/bannerimg.jpg);
+    /* background-image: url(/public/bannerimg.jpg); */
+    background-image:linear-gradient(to right, rgba(255, 255, 255, 0), rgb(229, 111, 111));
     background-size: cover;
     padding: 100px;
     margin-bottom: 30px;

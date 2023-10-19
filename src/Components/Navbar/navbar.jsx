@@ -3,8 +3,7 @@ import './Navbar.module.css'
 import styles from './Navbar.module.css'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { RxCross1 } from 'react-icons/rx'
-
-
+import {Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -21,23 +20,24 @@ const Navbar = () => {
       <div className={styles.navbar_main}>
 
          <div className={styles.navbar_main_first}>
-            {/* <img src='logo192.png'></img> */}
-            <h1>Edu-Dict</h1>
+            <img src='logo-2.png'></img>
+            
          </div>
          <div className={styles.navbar_main_second}>
-            <ul className={buttn ? styles.navbar_main_lists : styles.navbar_main_liststyle}>
-               <li>Home</li>
-               <li>Customes</li>
-               <li>Service</li>
-               <li>About Us</li>
-               <li>Contact Us</li>
+            <ul className={buttn ? styles.navbar_main_lists : styles.navbar_main_liststyle}>         
+               <li><Link to="/" className='linkstyle'>Home</Link></li>
+               <li><Link to="/service">Service</Link></li>
+               <li><Link to="/about">About Us</Link></li>
+               <li><Link to="/blog">Blog</Link></li>
+               <li><Link to="/contact">Contact Us</Link></li>  
+               
             </ul>
          </div>
-         <div className={styles.navbar_main_third_row}>
+         {/* <div className={styles.navbar_main_third_row}>
             <div className={styles.navbar_main_third}>
                <button>Request a Demo</button>
             </div>
-         </div>
+         </div> */}
 
          <div className=''>
             <button type='button' className={styles.navbar_main_button} onClick={change}>{buttn ? <RxCross1 className='icons' /> : < GiHamburgerMenu />}</button>
