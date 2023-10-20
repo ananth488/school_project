@@ -1,5 +1,5 @@
 .footer_main {
-    background-color: rgb(244, 224, 191);
+    background-color: rgb(0, 0, 0);
     padding-top: 20px;
 }
 
@@ -9,27 +9,30 @@
 
 .footer_main h4 {
     cursor: pointer;
+    color: white;
 }
 
 .footer_main h4:hover {
-    color: rgb(41, 112, 242)
+    color: rgb(161, 161, 161);
 }
 
 .footer_main ul li {
     list-style: none;
     padding-top: 10px;
     cursor: pointer;
+    color: white;
 }
 
 .footer_main ul li:hover {
     list-style: none;
     padding-top: 10px;
     cursor: pointer;
-    color: rgb(41, 112, 242);
+    color: rgb(161, 161, 161);
 }
 
 .footer_main_copyright p {
     padding-top: 14px;
+    color: white;
 }
 
 .footer_main_copyright_icons ul li {
@@ -59,7 +62,12 @@
     grid-template-columns: auto auto;
     justify-content: space-evenly;
 }
-
+.footer_main_copyright_icons_list span{
+    color: white;
+}
+.footer_main_copyright_icons_list span:hover{
+    color: rgb(161, 161, 161);
+}
 
 
 /* media screen mobile */

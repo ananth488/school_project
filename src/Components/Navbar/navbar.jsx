@@ -20,12 +20,12 @@ const Navbar = () => {
       <div className={styles.navbar_main}>
 
          <div className={styles.navbar_main_first}>
-            <img src='logo-2.png'></img>
+            <img src='logo-2.png' alt='correct'></img>
             
          </div>
          <div className={styles.navbar_main_second}>
             <ul className={buttn ? styles.navbar_main_lists : styles.navbar_main_liststyle}>         
-               <li><Link to="/" className='linkstyle'>Home</Link></li>
+               <li><Link to="/">Home</Link></li>
                <li><Link to="/service">Service</Link></li>
                <li><Link to="/about">About Us</Link></li>
                <li><Link to="/blog">Blog</Link></li>

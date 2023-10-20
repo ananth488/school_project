@@ -7,11 +7,10 @@ const Footer = () => {
             <div className='container'>
                 <div className='row'>
                     <div className='col'>
-                        {/* <img src='logo.jpg'></img> */}
-                        <h1>Edu-Dict</h1>
-                        <div className={styles.footer_main_para}>
+                        <img src='logo-2.png' alt='correct'></img>
+                        {/* <div className={styles.footer_main_para}>
                         <p>Edunext ERP is India's most advanced school management software with mobile apps for students, parents, teachers and management.</p>
-                        </div>
+                        </div> */}
                         
                     </div>
                     <div className='col'>

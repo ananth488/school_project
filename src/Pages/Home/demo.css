@@ -1,0 +1,961 @@
+.clientrating_main_first{
+    margin-bottom: 30px;
+}
+.clientrating_main_row{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    background-color: rgb(145, 242, 242);
+    border-radius: 80px;
+    padding: 25px;
+}
+.clientrating_main_row h2{
+    padding-top: 13px;
+}
+.clientrating_main_button button{
+    border: none;
+    background-color:rgb(4, 74, 62);
+    color: white;
+    margin-top: 23px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.clientrating_main_button button:hover{
+    background-color: rgb(247, 181, 59);
+    color: black;
+}
+.clientrating_main_second{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.clientrating_main_second img{
+    width: 230px;
+    height: 30px;
+}
+.clientrating_main_second_content{
+    margin-bottom: 30px;
+}
+.clientrating_main_second_content_text{
+    padding: 10px;
+}
+.clientrating_main_second_content p{
+    text-align: left;
+}
+.clientrating_main_second_content img{
+    width: 83px;
+    height: 83px;
+}
+.clientrating_main_second_content_para p{
+    font-size: 12px;
+}
+
+.clientrating_main_third button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 10%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    background-color:rgb(4, 74, 62) ;
+    color: white;
+    margin-bottom: 20px;
+}
+.clientrating_main_third button:hover{
+    background-color: rgb(247, 181, 59);
+    color: black;
+}
+
+.key_statistics_main_first{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.key_statistics_main_first img{
+    width: 230px;
+    height: 30px; 
+    background: none !important;
+}
+.key_statistics_main_second{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    grid-auto-flow: column;
+}
+
+.key_statistics_main {
+    background-image: url(/public/customer.jpg);
+    padding: 50px;
+    margin-bottom: 30px;
+}
+.key_statistics_main_second_Exp{
+    color: white;
+    text-align: center;
+
+   
+}
+.key_statistics_main_second_Exp h1{
+    font-size: 70px;
+    border-bottom: 2px solid white;
+}
+.key_statistics_main_second_Exp p{
+    font-size: 20px;
+}
+
+.key_statistics_main_second_Exp1{
+   border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    width: 200px;
+}
+.key_statistics_main_second_Exp1_img{
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+    width: 200px;
+    background-image: url(/public/black-pattern.jpg);
+}
+.education_ERP_main{
+    margin-bottom: 30px;
+}
+.education_ERP_main h1{
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.education_ERP_main img{
+    width: 230px;
+    height: 30px; 
+    margin-bottom: 15px;
+}
+.education_ERP_main p{
+   padding: 0 50px;
+}
+.school_ERP_main{
+   margin-bottom: 30px;
+}
+
+.school_ERP_main_second{
+    padding: 20px;
+}
+.school_ERP_main_second img{
+    width: 100%;
+}
+.Automate_main{
+    background-image: url(/public/CTA-FAQ.webp);
+    background-size: cover;
+    padding: 60px;
+    margin-bottom: 30px;
+}
+.Automate_main h1{
+    text-align: center;
+    color: white;
+    font-size: 26px;
+}
+.Automate_main p{
+    text-align: center; 
+    color: white;
+}
+.Automate_main img{
+    width: 230px;
+    height: 30px; 
+}
+.Automate_main button{
+    width: 10%;
+    padding: 8px;
+    margin: 0;
+    border: none;
+}
+.our_clients_main h1{
+    text-align: center;
+    font-size: 26px;
+}
+.our_clients_main_img img{
+    width: 230px;
+    height: 30px;  
+}
+.our_clients_main_first{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 50px 50px 90px;
+    
+}
+.our_clients_main_first img{
+    width:150px;
+    height:150px;
+}
+.our_clients_main_first_flex1,.our_clients_main_first_flex2,.our_clients_main_first_flex3,.our_clients_main_first_flex4,.our_clients_main_first_flex5,.our_clients_main_first_flex6{
+    flex: 16.666%; 
+   
+}
+.ERP_Implementation_main h1{
+    text-align: center;
+    font-size: 38px;
+}
+.ERP_Implementation_main_img1 img{
+    width:100%;
+    height: fit-content;
+    border-radius: 20px;
+}
+.ERP_Implementation_main_first{
+    padding: 50px;
+}
+
+
+
+
+
+/* media */
+
+
+@media screen and (min-width:200px) and (max-width:320px) {
+    .bannerimg_main{
+        height: 100%;
+        width: 100%;
+        background-image: url(/public/bannerimg.jpg);
+        background-size: cover;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+    .bannerimg_main_first h1{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .bannerimg_main_first h1{
+        font-weight: 400;
+        color: #db4444c9;
+    
+    }
+    .bannerimg_main_first p{
+        font-weight: 400;
+        color: black;
+        padding: 0 10px;
+    
+    }
+    .clientrating_main_first{
+        margin-bottom: 30px;
+    }
+    .clientrating_main_row{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-around;
+        background-color: rgb(145, 242, 242);
+        border-radius: 20px;
+        padding: 17px;
+        margin-left: 10px;
+    }
+    .clientrating_main_row h2{
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    .clientrating_main_button button{
+        border: none;
+        background-color:rgb(4, 74, 62);
+        color: white;
+        margin-top: 23px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .clientrating_main_button button:hover{
+        background-color: rgb(247, 181, 59);
+        color: black;
+    }
+    .clientrating_main_second{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .clientrating_main_second img{
+        width: 230px;
+        height: 30px;
+    }
+    .clientrating_main_second_content{
+        margin-bottom: 30px;
+        padding-left: 30px;
+    }
+    .clientrating_main_second_img{
+        width: 43%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .clientrating_main_second_content_text{
+        padding: 10px;
+    }
+    .clientrating_main_second_content p{
+        text-align: left;
+    }
+    .clientrating_main_second_content img{
+        width: 83px;
+        height: 83px;
+    }
+    .clientrating_main_second_content_para p{
+        font-size: 12px;
+    }
+    
+    .clientrating_main_third button{
+        
+        border: none;
+        width: 50%;
+        text-align: center;
+        padding: 15px;
+        border-radius: 10px;
+        background-color:rgb(4, 74, 62) ;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .clientrating_main_third button:hover{
+        background-color: rgb(247, 181, 59);
+        color: black;
+    }
+    
+    .key_statistics_main_first{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .key_statistics_main_first img{
+        width: 187px;
+        height: 30px; 
+        background: none !important;
+    }
+    .key_statistics_main_second{
+        display: block;
+       
+    }
+    
+    .key_statistics_main {
+        background-image: url(/public/customer.jpg);
+        padding: 50px;
+        margin-bottom: 30px;
+    }
+    .key_statistics_main_second_Exp{
+        color: white;
+        text-align: center;
+        margin-bottom: 15px;
+    
+       
+    }
+    .key_statistics_main_second_Exp h1{
+        font-size: 70px;
+        border-bottom: 2px solid white;
+    }
+    .key_statistics_main_second_Exp p{
+        font-size: 20px;
+    }
+    
+    .key_statistics_main_second_Exp1{
+       border-radius: 10px;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        text-align: center;
+        padding: 15px;
+        width: 200px;
+        margin-bottom: 15px;
+    }
+    .key_statistics_main_second_Exp1_img{
+        margin-bottom: 15px;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 15px;
+        width: 200px;
+        background-image: url(/public/black-pattern.jpg);
+    }
+    .education_ERP_main{
+        margin-bottom: 30px;
+        padding: 1px;
+    }
+    .education_ERP_main h1{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .education_ERP_main img{
+        width: 187px;
+        height: 30px; 
+        margin-bottom: 15px;
+    }
+    .education_ERP_main p{
+       padding: 0 20px;
+    }
+    .ERP_Implementation_main_first{
+        padding: 0px;
+    }
+    .school_ERP_main{
+       margin-bottom: 30px;
+    }
+    
+    .school_ERP_main_second{
+        padding: 20px;
+    }
+    .school_ERP_main_second img{
+        width: 100%;
+    }
+    .Automate_main{
+        background-image: url(/public/CTA-FAQ.webp);
+        background-size: cover;
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+    .Automate_main h1{
+        text-align: center;
+        color: white;
+        font-size: 26px;
+    }
+    .Automate_main p{
+        text-align: center; 
+        color: white;
+    }
+    .Automate_main img{
+        width: 230px;
+        height: 30px; 
+    }
+    .Automate_main button{
+        width: 10%;
+        padding: 8px;
+        margin: 0;
+        border: none;
+    }
+    .our_clients_main h1{
+        text-align: center;
+        font-size: 26px;
+    }
+    .our_clients_main_img img{
+        width: 187px;
+        height: 30px;  
+    }
+    .our_clients_main_first{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 50px 50px 65px;
+    }
+    .our_clients_main_first img{
+        width:150px;
+        height:150px;
+    }
+    .our_clients_main_first_flex1,.our_clients_main_first_flex2,.our_clients_main_first_flex3,.our_clients_main_first_flex4,.our_clients_main_first_flex5,.our_clients_main_first_flex6{
+        flex: 16.666%; 
+    }
+    .ERP_Implementation_main h1{
+        text-align: center;
+        font-size: 20px;
+    }
+    .ERP_Implementation_main_img1 img{
+        width:100%;
+        height: fit-content;
+        border-radius: 20px;
+    }
+   
+  }
+  @media screen and (min-width:320px) and (max-width:550px) {
+    .our_clients_main_first_flex1,.our_clients_main_first_flex2,.our_clients_main_first_flex3,.our_clients_main_first_flex4,.our_clients_main_first_flex5,.our_clients_main_first_flex6 {
+        flex: 100%;
+      }
+      .our_clients_main_first{
+          padding: 50px 50px 50px 80px;
+          gap: 40px;
+      }
+
+      .bannerimg_main{
+        height: 100%;
+        width: 100%;
+        background-image: url(/public/bannerimg.jpg);
+        background-size: cover;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+    .bannerimg_main_first h1{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .bannerimg_main_first h1{
+        font-weight: 400;
+        color: #db4444c9;
+    
+    }
+    .bannerimg_main_first p{
+        font-weight: 400;
+        color: black;
+        padding: 0 10px;
+    
+    }
+    .clientrating_main_first{
+        margin-bottom: 30px;
+    }
+    .clientrating_main_row{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-around;
+        background-color: rgb(145, 242, 242);
+        border-radius: 20px;
+        padding: 17px;
+        margin-left: 10px;
+    }
+    .clientrating_main_row h2{
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    .clientrating_main_button button{
+        border: none;
+        background-color:rgb(4, 74, 62);
+        color: white;
+        margin-top: 23px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .clientrating_main_button button:hover{
+        background-color: rgb(247, 181, 59);
+        color: black;
+    }
+    .clientrating_main_second{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .clientrating_main_second img{
+        width: 230px;
+        height: 30px;
+    }
+    .clientrating_main_second_content{
+        margin-bottom: 30px;
+        padding-left: 30px;
+    }
+    .clientrating_main_second_img{
+        margin-left: auto;
+    margin-right: auto;
+    width: 27%;
+    }
+    .clientrating_main_second_content_text{
+        padding: 10px;
+    }
+    .clientrating_main_second_content p{
+        text-align: left;
+    }
+    .clientrating_main_second_content img{
+        width: 83px;
+        height: 83px;
+    }
+    .clientrating_main_second_content_para p{
+        font-size: 12px;
+    }
+    
+    .clientrating_main_third button{
+        
+        border: none;
+        width: 50%;
+        text-align: center;
+        padding: 15px;
+        border-radius: 10px;
+        background-color:rgb(4, 74, 62) ;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .clientrating_main_third button:hover{
+        background-color: rgb(247, 181, 59);
+        color: black;
+    }
+    
+    .key_statistics_main_first{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .key_statistics_main_first img{
+        width: 230px;
+        height: 30px; 
+        background: none !important;
+    }
+    .key_statistics_main_second{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+       
+    }
+    
+    .key_statistics_main {
+        background-image: url(/public/customer.jpg);
+        padding: 13px 0px;
+        margin-bottom: 30px;
+    }
+    .key_statistics_main_second_Exp{
+        color: white;
+        text-align: center;
+        margin-bottom: 15px;
+       
+    }
+    .key_statistics_main_second_Exp h1{
+        font-size: 70px;
+        border-bottom: 2px solid white;
+    }
+    .key_statistics_main_second_Exp p{
+        font-size: 20px;
+    }
+    
+    .key_statistics_main_second_Exp1{
+       border-radius: 10px;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        text-align: center;
+        padding: 15px;
+        width: 200px;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .key_statistics_main_second_Exp1_img{
+        margin-bottom: 15px;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 15px;
+        width: 200px;
+        background-image: url(/public/black-pattern.jpg);
+    }
+    .education_ERP_main{
+        margin-bottom: 30px;
+    }
+    .education_ERP_main h1{
+        text-align: center;
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .education_ERP_main img{
+        width: 230px;
+        height: 30px; 
+        margin-bottom: 15px;
+    }
+    .education_ERP_main p{
+       padding: 0 20px;
+    }
+    .ERP_Implementation_main_first{
+        padding: 0px;
+    }
+    .school_ERP_main{
+       margin-bottom: 30px;
+    }
+    
+    .school_ERP_main_second{
+        padding: 20px;
+    }
+    .school_ERP_main_second img{
+        width: 100%;
+    }
+    .Automate_main{
+        background-image: url(/public/CTA-FAQ.webp);
+        background-size: cover;
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+    .Automate_main h1{
+        text-align: center;
+        color: white;
+        font-size: 26px;
+    }
+    .Automate_main p{
+        text-align: center; 
+        color: white;
+    }
+    .Automate_main img{
+        width: 230px;
+        height: 30px; 
+    }
+    .Automate_main button{
+        width: 10%;
+        padding: 8px;
+        margin: 0;
+        border: none;
+    }
+    .our_clients_main h1{
+        text-align: center;
+        font-size: 26px;
+    }
+    .our_clients_main_img img{
+        width: 230px;
+        height: 30px;  
+    }
+    .our_clients_main_first{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 50px 50px 65px;
+        padding-left: 20px;
+    }
+    .our_clients_main_first img{
+        width:150px;
+        height:150px;
+    }
+    .our_clients_main_first_flex1,.our_clients_main_first_flex2,.our_clients_main_first_flex3,.our_clients_main_first_flex4,.our_clients_main_first_flex5,.our_clients_main_first_flex6{
+        flex: 16.666%; 
+        padding-left: 99px;
+    }
+    .ERP_Implementation_main h1{
+        text-align: center;
+        font-size: 26px;
+    }
+    .ERP_Implementation_main_img1 img{
+        width:100%;
+        height: fit-content;
+        border-radius: 20px;
+    }
+  }
+  @media screen and (min-width:550px) and (max-width:992px){
+    .our_clients_main_first_flex1,.our_clients_main_first_flex2,.our_clients_main_first_flex3,.our_clients_main_first_flex4,.our_clients_main_first_flex5,.our_clients_main_first_flex6 {
+        flex: 100%;
+      }
+      .our_clients_main_first{
+          padding: 50px 50px 50px 80px;
+          gap: 40px;
+      }
+
+      .bannerimg_main{
+        height: 100%;
+        width: 100%;
+        background-image: url(/public/bannerimg.jpg);
+        background-size: cover;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+    .bannerimg_main_first h1{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .bannerimg_main_first h1{
+        font-weight: 400;
+        color: #db4444c9;
+    
+    }
+    .bannerimg_main_first p{
+        font-weight: 400;
+        color: black;
+        padding: 0 10px;
+    
+    }
+    .clientrating_main_first{
+        margin-bottom: 30px;
+    }
+    .clientrating_main_row{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-around;
+        background-color: rgb(145, 242, 242);
+        border-radius: 20px;
+        padding: 17px;
+        margin-left: 10px;
+    }
+    .clientrating_main_row h2{
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    .clientrating_main_button button{
+        border: none;
+        background-color:rgb(4, 74, 62);
+        color: white;
+        margin-top: 23px;
+        padding: 10px;
+        border-radius: 10px;
+        width: 40%;
+    }
+    .clientrating_main_button button:hover{
+        background-color: rgb(247, 181, 59);
+        color: black;
+    }
+    .clientrating_main_second{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .clientrating_main_second img{
+        width: 230px;
+        height: 30px;
+    }
+    .clientrating_main_second_content{
+        margin-bottom: 30px;
+        padding-left: 30px;
+    }
+    .clientrating_main_second_img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+    }
+    .clientrating_main_second_content_text{
+        padding: 10px;
+    }
+    .clientrating_main_second_content p{
+        text-align: left;
+    }
+    .clientrating_main_second_content img{
+        width: 83px;
+        height: 83px;
+    }
+    .clientrating_main_second_content_para p{
+        font-size: 15px;
+    }
+    
+    .clientrating_main_third button{
+        
+        border: none;
+        width: 50%;
+        text-align: center;
+        padding: 15px;
+        border-radius: 10px;
+        background-color:rgb(4, 74, 62) ;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .clientrating_main_third button:hover{
+        background-color: rgb(247, 181, 59);
+        color: black;
+    }
+    
+    .key_statistics_main_first{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .key_statistics_main_first img{
+        width: 230px;
+        height: 30px; 
+        background: none !important;
+    }
+    .key_statistics_main_second{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+       
+    }
+    
+    .key_statistics_main {
+        background-image: url(/public/customer.jpg);
+        padding: 50px;
+        margin-bottom: 30px;
+    }
+    .key_statistics_main_second_Exp{
+        color: white;
+        text-align: center;
+        margin-bottom: 15px;
+       
+    }
+    .key_statistics_main_second_Exp h1{
+        font-size: 70px;
+        border-bottom: 2px solid white;
+    }
+    .key_statistics_main_second_Exp p{
+        font-size: 20px;
+    }
+    
+    .key_statistics_main_second_Exp1{
+       border-radius: 10px;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        text-align: center;
+        padding: 15px;
+        width: 200px;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .key_statistics_main_second_Exp1_img{
+        margin-bottom: 15px;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 15px;
+        width: 200px;
+        background-image: url(/public/black-pattern.jpg);
+    }
+    .education_ERP_main{
+        margin-bottom: 30px;
+    }
+    .education_ERP_main h1{
+        text-align: center;
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .education_ERP_main img{
+        width: 230px;
+        height: 30px; 
+        margin-bottom: 15px;
+    }
+    .education_ERP_main p{
+       padding: 0 20px;
+    }
+    .ERP_Implementation_main_first{
+        padding: 0px;
+    }
+    .school_ERP_main{
+       margin-bottom: 30px;
+    }
+    
+    .school_ERP_main_second{
+        padding: 20px;
+    }
+    .school_ERP_main_second img{
+        width: 100%;
+    }
+    .Automate_main{
+        background-image: url(/public/CTA-FAQ.webp);
+        background-size: cover;
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+    .Automate_main h1{
+        text-align: center;
+        color: white;
+        font-size: 26px;
+    }
+    .Automate_main p{
+        text-align: center; 
+        color: white;
+    }
+    .Automate_main img{
+        width: 230px;
+        height: 30px; 
+    }
+    .Automate_main button{
+        width: 10%;
+        padding: 8px;
+        margin: 0;
+        border: none;
+    }
+    .our_clients_main h1{
+        text-align: center;
+        font-size: 26px;
+    }
+    .our_clients_main_img img{
+        width: 230px;
+        height: 30px;  
+    }
+    .our_clients_main_first{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 50px 50px 65px;
+        padding-left: 20px;
+    }
+    .our_clients_main_first img{
+        width:150px;
+        height:150px;
+    }
+    .our_clients_main_first_flex1,.our_clients_main_first_flex2,.our_clients_main_first_flex3,.our_clients_main_first_flex4,.our_clients_main_first_flex5,.our_clients_main_first_flex6{
+        flex: 16.666%; 
+        padding-left: 99px;
+    }
+    .ERP_Implementation_main h1{
+        text-align: center;
+        font-size: 26px;
+    }
+    .ERP_Implementation_main_img1 img{
+        width:100%;
+        height: fit-content;
+        border-radius: 20px;
+    }
+  }
+
+
+
+  /* html */
+
+
+
+  
