@@ -36,7 +36,16 @@ font-family: "Anton", sans-serif;
     margin-right: auto;
    margin-bottom: 40px;
 }
-
+.discovery_main_second_second{
+    padding-top: 50px;
+}
+.discovery_main_second_third{
+display: flex;
+}
+.discovery_main_second_third h1{
+    font-size: 3.5rem;
+    color: rgb(111, 110, 110);
+}
 
 /*  */
 
