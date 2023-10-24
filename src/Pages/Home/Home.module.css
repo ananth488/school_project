@@ -86,6 +86,15 @@ display: flex;
     text-align: center;
     padding: 50px;
 }
+.major_main_first:hover{
+    background-color: rgb(224, 225, 227);
+}
+.major_main_first h2{
+    font-size: 20px;
+}
+.major_main_first p{
+    color: rgb(117, 117, 117);
+}
 .major_main_first img{
     width: 50px;
     height: 45px;
@@ -190,6 +199,15 @@ flex-wrap: wrap;
         color: rgb(0, 0, 0);
         margin-bottom: 20px;
     }
+    .major_main_first:hover{
+        background-color: rgb(224, 225, 227);
+    }
+    .major_main_first h2{
+        font-size: 20px;
+    }
+    .major_main_first p{
+        color: rgb(117, 117, 117);
+    }
    
   }
   @media screen and (min-width:320px) and (max-width:550px) {
@@ -274,7 +292,38 @@ flex-wrap: wrap;
 }
 .discovery_main_second_third_second h5{
     margin-top: 10px;
-} 
+}
+/*  */
+.major_main{
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-bottom: 40px;
+    
+}
+.major_main_first{
+    border: 1px solid rgb(193, 193, 193);
+    text-align: center;
+    padding: 50px;
+}
+.major_main_first img{
+    width: 50px;
+    height: 45px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+.major_main_first:hover{
+    background-color: rgb(224, 225, 227);
+}
+.major_main_first h2{
+    font-size: 20px;
+}
+.major_main_first p{
+    color: rgb(117, 117, 117);
+}
+
   }
   @media screen and (min-width:550px) and (max-width:992px){
     .our_clients_main_first_flex1,.our_clients_main_first_flex2,.our_clients_main_first_flex3,.our_clients_main_first_flex4,.our_clients_main_first_flex5,.our_clients_main_first_flex6 {
@@ -313,5 +362,34 @@ flex-wrap: wrap;
     }
     .discovery_main_second_third_second h5{
         margin-top: 10px;
+    }
+    .major_main{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        margin-bottom: 40px;
+        
+    }
+    .major_main_first{
+        border: 1px solid rgb(193, 193, 193);
+        text-align: center;
+        padding: 50px;
+    }
+    .major_main_first img{
+        width: 50px;
+        height: 45px;
+        color: rgb(0, 0, 0);
+        margin-bottom: 20px;
+    }
+    .major_main_first:hover{
+        background-color: rgb(224, 225, 227);
+    }
+    .major_main_first h2{
+        font-size: 20px;
+    }
+    .major_main_first p{
+        color: rgb(117, 117, 117);
     }
   }

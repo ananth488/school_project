@@ -127,7 +127,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/*  */}
+      {/* major_main */}
       <div className={styles.major_main}>
         <div className={styles.major_main_first}>
           <img src="home1.png.webp" alt="correct"></img>
@@ -139,7 +139,7 @@ const Home = () => {
         </div>
         <div className={styles.major_main_first}>
         <img src="home2.png.webp" alt="correct"></img>
-          <h2>Total Donation</h2>
+          <h2>Fund Raised</h2>
           <p>
             The French Revolutioncons tituted for the conscience of the
             dominant.
@@ -148,7 +148,7 @@ const Home = () => {
         <div className={styles.major_main_first}>
          
         <img src="home3.png.webp" alt="correct"></img>
-          <h2>Total Donation</h2>
+          <h2>Highest Donation</h2>
           <p>
             The French Revolutioncons tituted for the conscience of the
             dominant.
@@ -164,6 +164,7 @@ const Home = () => {
           </p>
         </div>
       </div>
+      {/* our Causes */}
     </>
   );
 };
