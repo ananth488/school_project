@@ -2,34 +2,38 @@ import React, { useState } from "react";
 import styles from "./Home.module.css";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
-
+import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
 
 const Home = () => {
   const [counteron, setCounterOn] = useState(false);
   return (
     <>
       <div className={styles.homepage_main}>
-        {/* bannerimag */}
-        <div className={styles.bannerimg_main}>
-          <div className={styles.bannerimg_main_first}>
-            <h1>
-              Campus Management Solutions For <br />
-              Educational Institutions
-            </h1>
-            <p>
-              Distinct product offerings for Schools, Colleges, Universities &
-              Trusts.
-            </p>
-            <p>Automation of Students, Faculty & Campus Administration.</p>
-            <p>
-              Learning Outcome Management & Analysis to promote Student Success
-            </p>
-            <p>Automation of Students, Faculty & Campus Administration.</p>
-            <p>
-              Learning Outcome Management & Analysis to promote Student Success
-            </p>
-          </div>
-        </div>
+        <MDBCarousel showIndicators showControls fade>
+          <MDBCarouselItem
+            className="w-100 d-block"
+            itemId={1}
+            src="banner 1.jpg"
+            alt="..."
+          > 
+          </MDBCarouselItem>
+          <MDBCarouselItem
+            className="w-100 d-block"
+            itemId={2}
+            src="banner 2.jpg"
+            alt="..."
+          >
+          </MDBCarouselItem>
+         
+          <MDBCarouselItem
+            className="w-100 d-block"
+            itemId={3}
+            src="banner 3.jpg"
+            alt="..."
+          >
+          </MDBCarouselItem>
+        </MDBCarousel>
+        
       </div>
       {/* discovery */}
       <div className={styles.discovery_main}>
@@ -62,7 +66,7 @@ const Home = () => {
                 >
                   <span>
                     {counteron && (
-                      <CountUp start={0} end={15} duration={2} delay={0} />
+                      <CountUp start={0} end={15} duration={5} delay={0} />
                     )}
                   </span>
                 </ScrollTrigger>
@@ -75,7 +79,7 @@ const Home = () => {
                 >
                   <span>
                     {counteron && (
-                      <CountUp start={0} end={1450} duration={2} delay={0} />
+                      <CountUp start={0} end={1450} duration={5} delay={0} />
                     )}
                   </span>
                 </ScrollTrigger>
@@ -101,7 +105,7 @@ const Home = () => {
                 >
                   <span>
                     {counteron && (
-                      <CountUp start={0} end={4560} duration={2} delay={0} />
+                      <CountUp start={0} end={4560} duration={5} delay={0} />
                     )}
                   </span>
                 </ScrollTrigger>
@@ -114,7 +118,7 @@ const Home = () => {
                 >
                   <span>
                     {counteron && (
-                      <CountUp start={0} end={38} duration={2} delay={0} />
+                      <CountUp start={0} end={38} duration={5} delay={0} />
                     )}
                   </span>
                 </ScrollTrigger>
@@ -138,7 +142,7 @@ const Home = () => {
           </p>
         </div>
         <div className={styles.major_main_first}>
-        <img src="home2.png.webp" alt="correct"></img>
+          <img src="home2.png.webp" alt="correct"></img>
           <h2>Fund Raised</h2>
           <p>
             The French Revolutioncons tituted for the conscience of the
@@ -146,8 +150,7 @@ const Home = () => {
           </p>
         </div>
         <div className={styles.major_main_first}>
-         
-        <img src="home3.png.webp" alt="correct"></img>
+          <img src="home3.png.webp" alt="correct"></img>
           <h2>Highest Donation</h2>
           <p>
             The French Revolutioncons tituted for the conscience of the
@@ -155,8 +158,7 @@ const Home = () => {
           </p>
         </div>
         <div className={styles.major_main_first}>
-          
-        <img src="home4.png.webp" alt="correct"></img>
+          <img src="home4.png.webp" alt="correct"></img>
           <h2>Total Donation</h2>
           <p>
             The French Revolutioncons tituted for the conscience of the
