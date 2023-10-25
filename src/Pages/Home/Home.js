@@ -15,25 +15,21 @@ const Home = () => {
             itemId={1}
             src="banner 1.jpg"
             alt="..."
-          > 
-          </MDBCarouselItem>
+          ></MDBCarouselItem>
           <MDBCarouselItem
             className="w-100 d-block"
             itemId={2}
             src="banner 2.jpg"
             alt="..."
-          >
-          </MDBCarouselItem>
-         
+          ></MDBCarouselItem>
+
           <MDBCarouselItem
             className="w-100 d-block"
             itemId={3}
             src="banner 3.jpg"
             alt="..."
-          >
-          </MDBCarouselItem>
+          ></MDBCarouselItem>
         </MDBCarousel>
-        
       </div>
       {/* discovery */}
       <div className={styles.discovery_main}>
@@ -167,6 +163,55 @@ const Home = () => {
         </div>
       </div>
       {/* our Causes */}
+
+      <div className={styles.our_causes_main}>
+        <h2>Our Major Causes</h2>
+        <p>
+          The French Revolution constituted for the conscience of the dominant
+          aristocratic class a fall from innocence the natural chain of events.
+        </p>
+        <div className={styles.our_causes_main_first}>
+          <div className={styles.our_causes_main_first_img}>
+            <img src="d1.jpg.webp" alt="..."></img>
+            <div className={styles.our_causes_main_first_content}>
+            <h3>Did not find your package</h3>
+            <p>
+              The French Revolution constituted for the conscience of the
+              dominant aristocratic class a fall from innocence the natural
+              chain of events.
+            </p>
+            <button>Donate Here</button>
+            </div>
+            
+           
+          </div>
+          <div className={styles.our_causes_main_first_img}>
+            <img src="d2.jpg.webp" alt="..."></img>
+            <div className={styles.our_causes_main_first_content}>
+            <h3>Did not find your package</h3>
+            <p>
+              The French Revolution constituted for the conscience of the
+              dominant aristocratic class a fall from innocence the natural
+              chain of events.
+            </p>
+            <button>Donate Here</button>
+            </div>
+            
+          </div>
+          <div className={styles.our_causes_main_first_img}>
+            <img src="d3.jpg.webp" alt="..."></img>
+            <div className={styles.our_causes_main_first_content}>
+            <h3>Did not find your package</h3>
+            <p>
+              The French Revolution constituted for the conscience of the
+              dominant aristocratic class a fall from innocence the natural
+              chain of events.
+            </p>
+            <button>Donate Here</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
