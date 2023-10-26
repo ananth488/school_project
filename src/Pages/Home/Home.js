@@ -3,6 +3,7 @@ import styles from "./Home.module.css";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
 import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
+import {Link } from 'react-router-dom'
 
 const Home = () => {
   const [counteron, setCounterOn] = useState(false);
@@ -58,11 +59,11 @@ const Home = () => {
               <div className={styles.discovery_main_second_third_first}>
                 <ScrollTrigger
                   onEnter={() => setCounterOn(true)}
-                  onExit={() => setCounterOn(false)}
+                  // onExit={() => setCounterOn(false)}
                 >
                   <span>
                     {counteron && (
-                      <CountUp start={0} end={15} duration={5} delay={0} />
+                      <CountUp start={0} end={15} duration={2} delay={0} />
                     )}
                   </span>
                 </ScrollTrigger>
@@ -71,11 +72,11 @@ const Home = () => {
               <div className={styles.discovery_main_second_third_second}>
                 <ScrollTrigger
                   onEnter={() => setCounterOn(true)}
-                  onExit={() => setCounterOn(false)}
+                  // onExit={() => setCounterOn(false)}
                 >
                   <span>
                     {counteron && (
-                      <CountUp start={0} end={1450} duration={5} delay={0} />
+                      <CountUp start={0} end={1450} duration={2} delay={0} />
                     )}
                   </span>
                 </ScrollTrigger>
@@ -97,11 +98,11 @@ const Home = () => {
               <div className={styles.discovery_main_second_third_first}>
                 <ScrollTrigger
                   onEnter={() => setCounterOn(true)}
-                  onExit={() => setCounterOn(false)}
+                  // onExit={() => setCounterOn(false)}
                 >
                   <span>
                     {counteron && (
-                      <CountUp start={0} end={4560} duration={5} delay={0} />
+                      <CountUp start={0} end={4560} duration={2} delay={0} />
                     )}
                   </span>
                 </ScrollTrigger>
@@ -110,11 +111,11 @@ const Home = () => {
               <div className={styles.discovery_main_second_third_second}>
                 <ScrollTrigger
                   onEnter={() => setCounterOn(true)}
-                  onExit={() => setCounterOn(false)}
+                  // onExit={() => setCounterOn(false)}
                 >
                   <span>
                     {counteron && (
-                      <CountUp start={0} end={38} duration={5} delay={0} />
+                      <CountUp start={0} end={38} duration={2} delay={0} />
                     )}
                   </span>
                 </ScrollTrigger>
@@ -162,7 +163,7 @@ const Home = () => {
           </p>
         </div>
       </div>
-      {/* our Causes */}
+      {/* our Causes first */}
 
       <div className={styles.our_causes_main}>
         <h2>Our Major Causes</h2>
@@ -174,43 +175,100 @@ const Home = () => {
           <div className={styles.our_causes_main_first_img}>
             <img src="d1.jpg.webp" alt="..."></img>
             <div className={styles.our_causes_main_first_content}>
-            <h3>Did not find your package</h3>
-            <p>
-              The French Revolution constituted for the conscience of the
-              dominant aristocratic class a fall from innocence the natural
-              chain of events.
-            </p>
-            <button>Donate Here</button>
+              <h3>Did not find your package</h3>
+              <p>
+                The French Revolution constituted for the conscience of the
+                dominant aristocratic class a fall from innocence the natural
+                chain of events.
+              </p>
+              <button>Donate Here</button>
             </div>
-            
-           
           </div>
           <div className={styles.our_causes_main_first_img}>
             <img src="d2.jpg.webp" alt="..."></img>
             <div className={styles.our_causes_main_first_content}>
-            <h3>Did not find your package</h3>
-            <p>
-              The French Revolution constituted for the conscience of the
-              dominant aristocratic class a fall from innocence the natural
-              chain of events.
-            </p>
-            <button>Donate Here</button>
+              <h3>Did not find your package</h3>
+              <p>
+                The French Revolution constituted for the conscience of the
+                dominant aristocratic class a fall from innocence the natural
+                chain of events.
+              </p>
+              <button>Donate Here</button>
             </div>
-            
           </div>
           <div className={styles.our_causes_main_first_img}>
             <img src="d3.jpg.webp" alt="..."></img>
             <div className={styles.our_causes_main_first_content}>
-            <h3>Did not find your package</h3>
-            <p>
-              The French Revolution constituted for the conscience of the
-              dominant aristocratic class a fall from innocence the natural
-              chain of events.
-            </p>
-            <button>Donate Here</button>
+              <h3>Did not find your package</h3>
+              <p>
+                The French Revolution constituted for the conscience of the
+                dominant aristocratic class a fall from innocence the natural
+                chain of events.
+              </p>
+              <button>Donate Here</button>
             </div>
           </div>
         </div>
+      </div>
+      {/* our Causes second */}
+
+      <div className={styles.our_causes_main}>
+        <div className={styles.our_causes_main_first}>
+          <div className={styles.our_causes_main_first_img}>
+            <img src="d3.jpg.webp" alt="..."></img>
+            <div className={styles.our_causes_main_first_content}>
+              <h3>Did not find your package</h3>
+              <p>
+                The French Revolution constituted for the conscience of the
+                dominant aristocratic class a fall from innocence the natural
+                chain of events.
+              </p>
+              <button>Donate Here</button>
+            </div>
+          </div>
+          <div className={styles.our_causes_main_first_img}>
+            <img src="d1.jpg.webp" alt="..."></img>
+            <div className={styles.our_causes_main_first_content}>
+              <h3>Did not find your package</h3>
+              <p>
+                The French Revolution constituted for the conscience of the
+                dominant aristocratic class a fall from innocence the natural
+                chain of events.
+              </p>
+              <button>Donate Here</button>
+            </div>
+          </div>
+          <div className={styles.our_causes_main_first_img}>
+            <img src="d2.jpg.webp" alt="..."></img>
+            <div className={styles.our_causes_main_first_content}>
+              <h3>Did not find your package</h3>
+              <p>
+                The French Revolution constituted for the conscience of the
+                dominant aristocratic class a fall from innocence the natural
+                chain of events.
+              </p>
+              <button>Donate Here</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Aboutus */}
+    <div className={styles.aboutus_main_back}>
+      <div className={styles.aboutus_main}>
+        <div className={styles.aboutus_main_first}>
+          <h2>About Us</h2>
+          <p>We, Thaagam Foundation, a non-government organisation, is working towards elevating the 
+            livelihoods of all living beings. Our thirst (‘thaagam’) is to serve humanity.
+             We believe humanity consists of people, animals, and the environment. We uphold our commitments 
+             to all living things by implementing innovative
+             and effective programmes for the underprivileged, animal welfare, and the environment.</p>
+             <button><Link to="/about">More About Us</Link></button>
+        </div>
+        <div className={styles.aboutus_main_second}>
+        <iframe className={styles.aboutus_main_second_video} title="unique title" width="100%" height="100%" src="https://www.youtube.com/embed/tgbNymZ7vqY" alt='...'>
+        </iframe>
+        </div>
+      </div>
       </div>
     </>
   );
