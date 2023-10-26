@@ -4,8 +4,8 @@
     padding: 20px 50px;
     background-color: black;
     position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+    position: sticky;
+    top: 0;
 }
 
 .navbar_main_first img {
@@ -18,10 +18,14 @@
      list-style: none;
      text-align: center;
 }
-.linkstyle{
-    text-decoration: none !important;
-    color: aquamarine !important;
+
+.navbar_main_second ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding-top: 20px;
+    list-style: none;
 }
+
 a{
     text-decoration: none !important;
     color: rgb(254, 254, 254);
@@ -31,19 +35,7 @@ a:hover{
     color: rgb(161, 161, 161);
     cursor: pointer;
 }
-.navbar_main_second ul {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    padding-top: 20px;
-    list-style: none;
-}
 
-.navbar_main_second ul li:hover {
-    list-style: none;
-    color: orange;
-    cursor: pointer;
-  
-}
 
 .navbar_main_third button {
     margin-top: 28px;
