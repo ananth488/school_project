@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <div className={styles.homepage_main}>
-        <MDBCarousel showIndicators showControls fade>
+        <MDBCarousel showControls fade dealy={1000}>
           <MDBCarouselItem
             className="w-100 d-block"
             itemId={1}
