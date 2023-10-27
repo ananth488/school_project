@@ -54,6 +54,30 @@ const About = () => {
           </div>
         </div>
       </div>
+      {/* About Mission */}
+      <div className={styles.about_mission}>
+              <h1>Concern About Our Mission</h1>
+              <div className={styles.about_mission_first}>
+                   <div className={styles.about_mission_first_content}>
+                       <h3>Our Mission</h3>
+                       <p>Thaagam foundation is a non-profit organization aiming to
+                         uplift the life of every individual by providing basic requirements.</p>
+                   </div>
+                   <div className={styles.about_mission_first_content}>
+                   <h3>Our Vision</h3>
+                   <p>Our efforts are envisioned to stem the tide of poverty and social isolation 
+                    and to rekindle hope for a better future. We think that everyone has the right to have parity of 
+                    access to the resources and opportunities they need for a dignified life and to participate fully in society.
+                     We have a dream of a world where there is no starvation, hunger, or poverty, and we are consistently striving for that.</p>
+                   </div>
+                   <div className={styles.about_mission_first_content}>
+                   <h3>Our Goal</h3>
+                   <p>With your participation, we aspire to help humanity by uplifting all aspects of human, 
+                    animal, and environmental well-being. Together, we can resolve the imbalance in society
+                     by empowering all underprivileged individuals and lead them to a better world of Equality, Dignity and Respect.</p>
+                   </div>
+              </div>
+      </div>
     </>
   );
 };
