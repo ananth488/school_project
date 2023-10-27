@@ -3,7 +3,16 @@ import styles from "./About.module.css";
 
 const About = () => {
   return (
-    <div className={styles}>
+    <>
+      {/* About banner */}
+      <div className={styles.aboutus_banner}>
+        <div className={styles.aboutus_banner_first}>
+        <h1>About Us</h1>
+           <p>We, Thaagam Foundation, a non-government organisation, is working
+              towards elevating the livelihoods of all living beings.</p>
+        </div>
+           
+      </div>
       {/* Aboutus */}
       <div className={styles.aboutus_main_back}>
         <div className={styles.aboutus_main}>
@@ -45,7 +54,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

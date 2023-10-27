@@ -6,16 +6,13 @@ const Footer = () => {
         <div className={styles.footer_main}>
             <div className='container'>
                 <div className='row'>
-                    <div className='col'>
+                    {/* <div className='col'>
                         <img src='logo-2.png' alt='correct'></img>
-                        {/* <div className={styles.footer_main_para}>
-                        <p>Edunext ERP is India's most advanced school management software with mobile apps for students, parents, teachers and management.</p>
-                        </div> */}
                         
-                    </div>
+                    </div> */}
                     <div className='col'>
                         <ul>
-                            <h4>Services</h4>
+                        <img src='logo-2.png' alt='correct'></img>
                             <li>E-Learning Software</li>
                             <li>Online Classes</li>
                             <li>Payment Gateway</li>

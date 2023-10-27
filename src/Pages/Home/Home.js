@@ -262,7 +262,7 @@ const Home = () => {
              We believe humanity consists of people, animals, and the environment. We uphold our commitments 
              to all living things by implementing innovative
              and effective programmes for the underprivileged, animal welfare, and the environment.</p>
-             <button><Link to="/about">More About Us</Link></button>
+             <button><Link to="/about">More About Us..</Link></button>
         </div>
         <div className={styles.aboutus_main_second}>
         <iframe className={styles.aboutus_main_second_video} title="unique title" width="100%" height="100%" src="https://www.youtube.com/embed/tgbNymZ7vqY" alt='...'>
