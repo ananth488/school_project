@@ -4,6 +4,7 @@ import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
 import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
 import {Link } from 'react-router-dom'
+// import {FaLongArrowAltRight} from 'react-icons/fa';
 
 const Home = () => {
   const [counteron, setCounterOn] = useState(false);
@@ -262,7 +263,8 @@ const Home = () => {
              We believe humanity consists of people, animals, and the environment. We uphold our commitments 
              to all living things by implementing innovative
              and effective programmes for the underprivileged, animal welfare, and the environment.</p>
-             <button><Link to="/about">More About Us..</Link></button>
+             <button><Link to="/about">More About Us</Link></button>
+             {/* <FaLongArrowAltRight className={styles.aboutus_icon}/> */}
         </div>
         <div className={styles.aboutus_main_second}>
         <iframe className={styles.aboutus_main_second_video} title="unique title" width="100%" height="100%" src="https://www.youtube.com/embed/tgbNymZ7vqY" alt='...'>

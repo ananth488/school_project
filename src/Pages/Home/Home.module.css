@@ -180,6 +180,9 @@
   color:rgb(255, 255, 255);
   background-color: rgb(154, 154, 154);
 }
+.aboutus_icon{
+  font-size: 10px;
+}
 .aboutus_main_second_video{
   width: 80%;
   height: 100%;
