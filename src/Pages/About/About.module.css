@@ -54,7 +54,8 @@ justify-content: center;
     margin-top: 50px;
   }
   .about_mission{
-    background: #061738;
+    background: url(/public/v1.png),#061738;
+    /* background: #061738; */
     padding: 50px;
   }
   .about_mission h1{
