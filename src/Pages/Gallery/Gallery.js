@@ -17,21 +17,19 @@ const Gallery = () => {
       <div className={Styles.gallery_main_photo}>
         <div className={Styles.gallery_main_photos}>
           <img src="CHILD 1.jpg" alt="..."></img>
-          <div className={Styles}>
-
+          <div className={Styles.overlay}>
+            <div className={Styles.content}>
+              <p>GOPI</p>
+            </div>
           </div>
         </div>
         <div className={Styles.gallery_main_photos}>
           <img src="TREE 1.jpg" alt="..."></img>
-          <div className={Styles}>
-
-          </div>
+          <div className={Styles.gallery_main_photos}></div>
         </div>
         <div className={Styles.gallery_main_photos}>
           <img src="DOG 1.jpg" alt="..."></img>
-          <div className={Styles}>
-
-          </div>
+          <div className={Styles.gallery_main_photos}></div>
         </div>
       </div>
     </>
