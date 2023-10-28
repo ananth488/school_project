@@ -17,6 +17,21 @@ const Gallery = () => {
       <div className={Styles.gallery_main_photo}>
         <div className={Styles.gallery_main_photos}>
           <img src="CHILD 1.jpg" alt="..."></img>
+          <div className={Styles}>
+
+          </div>
+        </div>
+        <div className={Styles.gallery_main_photos}>
+          <img src="TREE 1.jpg" alt="..."></img>
+          <div className={Styles}>
+
+          </div>
+        </div>
+        <div className={Styles.gallery_main_photos}>
+          <img src="DOG 1.jpg" alt="..."></img>
+          <div className={Styles}>
+
+          </div>
         </div>
       </div>
     </>
