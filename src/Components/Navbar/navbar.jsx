@@ -27,7 +27,7 @@ const Navbar = () => {
             <ul className={buttn ? styles.navbar_main_lists : styles.navbar_main_liststyle}>         
                <li><Link to="/">Home</Link></li>
                <li><Link to="/about">About Us</Link></li>
-               <li><Link to="/service">Service</Link></li>
+               <li><Link to="/Gallery">Gallery</Link></li>
                <li><Link to="/blog">Blog</Link></li>
                <li><Link to="/contact">Contact Us</Link></li>  
                

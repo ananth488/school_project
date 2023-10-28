@@ -83,6 +83,28 @@ justify-content: center;
     color: #cbcfd6;
     line-height: 33px;
   }
+  .about_mission_first_heading{
+    background-image: url(/public/comment1.png);
+    background-repeat: no-repeat;
+    height: 71px;
+    width: auto;
+  }
+  .about_mission_first_heading h3{
+    font-size: 24px;
+    padding-top: 11px;
+    padding-left: 17px;
+  }
+  .about_mission_first_headings{
+    background-image: url(/public/comment1.png);
+    background-repeat: no-repeat;
+    height: 71px;
+    width: auto;
+  }
+  .about_mission_first_headings h3{
+    font-size: 24px;
+    padding-top: 11px;
+    padding-left: 22px;
+  }
   /* media screen */
 
   @media screen and (min-width: 200px) and (max-width: 320px) {

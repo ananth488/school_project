@@ -17,7 +17,10 @@ const About = () => {
       <div className={styles.aboutus_main_back}>
         <div className={styles.aboutus_main}>
           <div className={styles.aboutus_main_first}>
-            <h2>About Us</h2>
+          <div className={styles.about_mission_first_heading}>                      
+                     <h3 >About Us</h3>
+                     </div>
+            
             <p>
               We, Thaagam Foundation, a non-government organisation, is working
               towards elevating the livelihoods of all living beings. Our thirst
@@ -59,19 +62,25 @@ const About = () => {
               <h1>Concern About Our Mission</h1>
               <div className={styles.about_mission_first}>
                    <div className={styles.about_mission_first_content}>
-                       <h3>Our Mission</h3>
+                    <div className={styles.about_mission_first_heading}>                      
+                     <h3 >Our Mission</h3>
+                     </div>
                        <p>Thaagam foundation is a non-profit organization aiming to
                          uplift the life of every individual by providing basic requirements.</p>
                    </div>
                    <div className={styles.about_mission_first_content}>
+                   <div className={styles.about_mission_first_headings}>                      
                    <h3>Our Vision</h3>
+                     </div>
                    <p>Our efforts are envisioned to stem the tide of poverty and social isolation 
                     and to rekindle hope for a better future. We think that everyone has the right to have parity of 
                     access to the resources and opportunities they need for a dignified life and to participate fully in society.
                      We have a dream of a world where there is no starvation, hunger, or poverty, and we are consistently striving for that.</p>
                    </div>
                    <div className={styles.about_mission_first_content}>
+                   <div className={styles.about_mission_first_headings}>                      
                    <h3>Our Goal</h3>
+                     </div>
                    <p>With your participation, we aspire to help humanity by uplifting all aspects of human, 
                     animal, and environmental well-being. Together, we can resolve the imbalance in society
                      by empowering all underprivileged individuals and lead them to a better world of Equality, Dignity and Respect.</p>
