@@ -1,6 +1,7 @@
 import React from "react";
 import Styles from "./Contact.module.css";
-import  * as FaLocationDot from 'react-icons/fa'
+import { HiLocationMarker } from "react-icons/hi";
+
 const Contact = () => {
   return (
     <>
@@ -20,10 +21,12 @@ const Contact = () => {
           <h2>Quick Contact</h2>
           <div className={Styles.contact_form_main_first_content}>
             <div className={Styles.contact_form_main_first_content_f}>
-             <FaLocationDot/>
+             <p><HiLocationMarker className={Styles.contact_form_main_first_content_f}/></p>
             </div>
             <div className={Styles.contact_form_main_first_content_s}>
-
+            <div className={Styles.contact_form_main_first_content_f}>
+             <p><HiLocationMarker className={Styles.contact_form_main_first_content_f}/></p>
+            </div>
             </div>
           </div>
         </div>

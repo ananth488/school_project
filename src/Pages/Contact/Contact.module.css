@@ -29,3 +29,9 @@
 .contact_form_main_second h2{
     text-align: center;
 }
+.contact_form_main_first_content_f{
+    font-size: 20px;
+    color:blue;
+    width: 40px;
+    height: 40px;
+}
