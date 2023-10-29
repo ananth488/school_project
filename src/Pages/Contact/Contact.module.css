@@ -17,6 +17,15 @@
 }
 /*  */
 .contact_form_main{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact_form_main_first h2{
+    text-align: center;
+}
+.contact_form_main_second h2{
+    text-align: center;
 }
