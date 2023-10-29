@@ -55,7 +55,6 @@ justify-content: center;
   }
   .about_mission{
     background: url(/public/v1.png),#061738;
-    /* background: #061738; */
     padding: 50px;
   }
   .about_mission h1{
@@ -147,6 +146,57 @@ justify-content: center;
     width: 100%;
     height: 100%;
   }
+  .about_mission{
+    background: url(/public/v1.png),#061738;
+    padding: 30px;
+  }
+  .about_mission h1{
+    text-align: center;
+    margin-bottom: 60px;
+    color: white;
+  }
+
+  .about_mission_first{
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    gap: 20px;
+  }
+  .about_mission_first h1{
+    text-align: center;
+  }
+  .about_mission_first h3{
+    color: white;
+  }
+  .about_mission_first p{
+    text-align: justify;
+    color: #cbcfd6;
+    line-height: 33px;
+  }
+  .about_mission_first_heading{
+    background-image: url(/public/comment1.png);
+    background-repeat: no-repeat;
+    height: 71px;
+    width: auto;
+  }
+  .about_mission_first_heading h3{
+    font-size: 24px;
+    padding-top: 11px;
+    padding-left: 17px;
+  }
+  .about_mission_first_headings{
+    background-image: url(/public/comment1.png);
+    background-repeat: no-repeat;
+    height: 71px;
+    width: auto;
+  }
+  .about_mission_first_headings h3{
+    font-size: 24px;
+    padding-top: 11px;
+    padding-left: 22px;
+  }
   }
   @media screen and (min-width: 320px) and (max-width: 550px) {
 
@@ -218,6 +268,57 @@ justify-content: center;
     text-align: justify;
     color: #cbcfd6;
     line-height: 33px;
+  }
+  .about_mission{
+    background: url(/public/v1.png),#061738;
+    padding: 30px;
+  }
+  .about_mission h1{
+    text-align: center;
+    margin-bottom: 60px;
+    color: white;
+  }
+
+  .about_mission_first{
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    gap: 20px;
+  }
+  .about_mission_first h1{
+    text-align: center;
+  }
+  .about_mission_first h3{
+    color: white;
+  }
+  .about_mission_first p{
+    text-align: justify;
+    color: #cbcfd6;
+    line-height: 33px;
+  }
+  .about_mission_first_heading{
+    background-image: url(/public/comment1.png);
+    background-repeat: no-repeat;
+    height: 71px;
+    width: auto;
+  }
+  .about_mission_first_heading h3{
+    font-size: 24px;
+    padding-top: 11px;
+    padding-left: 17px;
+  }
+  .about_mission_first_headings{
+    background-image: url(/public/comment1.png);
+    background-repeat: no-repeat;
+    height: 71px;
+    width: auto;
+  }
+  .about_mission_first_headings h3{
+    font-size: 24px;
+    padding-top: 11px;
+    padding-left: 22px;
   }
   }
   @media screen and (min-width: 550px) and (max-width: 992px) {
