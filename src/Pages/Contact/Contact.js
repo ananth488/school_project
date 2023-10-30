@@ -82,7 +82,10 @@ const Contact = () => {
              <input type="number" placeholder="Enter your number"></input>
              <input type="email" placeholder="Enter your email"></input>
              <input type="password" placeholder="Enter your password"></input>
-             <input className="btn" type="submit" ></input>
+             <div className={Styles.contact_form_main_second_first_click}>
+             <input className={Styles.contact_form_main_second_first_btn} type="submit" ></input>
+             </div>
+             
              </form>    
           </div>
 

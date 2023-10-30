@@ -55,6 +55,7 @@
 .contact_form_main_second_first{
     padding: 30px;
     box-shadow: 0 3px 14px 0px rgba(184, 184, 184, 0.85);
+    background-color: aliceblue;
 }
 .contact_form_main_second_first input{
     display: flex;
@@ -63,5 +64,17 @@
     margin-right: auto;
     padding: 8px;
     margin-bottom: 10px;
+    border-radius: 5px;
 
+}
+.contact_form_main_second_first input:hover{
+   border-color:rgb(46, 156, 229);;
+}
+.contact_form_main_second_first_click input{
+    width: 30%;
+    text-align: center;
+}
+.contact_form_main_second_first_btn{
+    border: 1px solid black;
+    background: white;
 }
