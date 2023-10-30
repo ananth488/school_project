@@ -29,9 +29,39 @@
 .contact_form_main_second h2{
     text-align: center;
 }
-.contact_form_main_first_content_f{
-    font-size: 20px;
-    color:blue;
-    width: 40px;
-    height: 40px;
+
+.contact_form_main_first_content_f p{
+ text-align: left;
+}
+.contact_form_main_first_content_icon{
+    width: 30px;
+    color: rgb(46, 156, 229);
+    box-shadow: 0 3px 14px 0px rgba(184, 184, 184, 0.85);
+}
+.content_form_text{
+    padding-left: 20px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: rgb(0, 100, 67);
+}
+.content_form_text1{
+    padding-left: 50px;
+    font-size: 1.15rem;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+/*  */
+
+.contact_form_main_second_first{
+    padding: 30px;
+    box-shadow: 0 3px 14px 0px rgba(184, 184, 184, 0.85);
+}
+.contact_form_main_second_first input{
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    margin-bottom: 10px;
+
 }
