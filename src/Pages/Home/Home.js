@@ -69,7 +69,7 @@ const Home = () => {
               <img src="disc 1.webp" alt="correct"></img>
             </div>
             <div className={styles.discovery_main_second_second}>
-              <h1>BUILD SCHOOLS IN CHENNAI</h1>
+              <h2>BUILD SCHOOLS IN CHENNAI</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Aliquam quis, nemo explicabo cupiditate vero fugiat sit eius
@@ -110,7 +110,7 @@ const Home = () => {
         <div className="headings">
           <div className={styles.discovery_main_second}>
             <div className={styles.discovery_main_second_second}>
-              <h1>FEEDING CHILDREN IN CHENNAI</h1>
+              <h2>FEEDING CHILDREN IN CHENNAI</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Aliquam quis, nemo explicabo cupiditate vero fugiat sit eius
