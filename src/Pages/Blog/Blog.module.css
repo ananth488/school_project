@@ -33,5 +33,38 @@ margin-bottom: 20px;
     margin-right: auto;
 }
 
-
+.react-multiple-carousel__arrow--right{
+    width: 10px !important;
+}
+.react-multiple-carousel__arrow--right {
+    right: calc(1px) !important;
+}
+.react-multiple-carousel__arrow--right {
+    right: calc(4% + 238px) !important;
+    width: 0px !important;
+}
+/* carusole */
+/* .blog_main_carousel{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+.react-multi-carousel.react-multi-carousel-arrow {
+    width: 30px !important; /* Adjust the width as needed */
+    height: 30px !important; /* Adjust the height as needed */
+    background-color: #007bff !important; /* Change the background color */
+    border-radius: 50% !important; /* Make the button round */
+  }
+  
+  /* Override styles for the active button */
+  .react-multi-carouse.react-multi-carousel-arrow--left {
+    left: 10px !important; /* Adjust the positioning as needed */
+  }
+  
+  .react-multi-carousel.react-multi-carousel-arrow--right {
+    right: 10px !important; /* Adjust the positioning as needed */
+  }
+  .react-multi-carousel-list button{
+    display: none !important;
+  }
 
