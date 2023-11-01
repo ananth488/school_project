@@ -52,7 +52,7 @@ const Footer = () => {
             <div className={styles.footer_main_copyright}>
 
                 <div className={styles.footer_main_copyright_col1}>
-                    <p>2023 Edunext Technologies Pvt. Ltd. | All Right Reserved.</p>
+                    <p>2023 Thaagam Foundation | All Right Reserved.</p>
                 </div>
                 <div className={styles.footer_main_copyright_col2}>
                     <div className={styles.footer_main_copyright_icons}>
