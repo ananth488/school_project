@@ -1,6 +1,67 @@
-import React from "react";
+import React,{useEffect, useRef} from "react";
+import 'prismjs/themes/prism.css';
 import Styles from "./Blog.module.css";
+import 'owl.carousel/dist/assets/owl.carousel.css'; // You may need to adjust the path to the CSS file.
+import 'owl.carousel/dist/assets/owl.theme.default.css'; // You may need to adjust the path to the CSS file.
+import OwlCarousel from 'react-owl-carousel2';
+import $ from 'jquery';
+window.jQuery = $;
+
+
+
+
+const codeSnippets = [
+  {
+    id: 1,
+    code: `// Your code snippet 1 here`,
+    language: 'javascript',
+    image: 'CHILD 1.jpg',
+  },
+  {
+    id: 2,
+    code: `# Your code snippet 2 here`,
+    language: 'python',
+    image: 'CHILD 2.jpg',
+  },
+  // Add more code snippets and images as needed
+];
+
+const options = {
+  items: 1,
+  loop: true,
+  margin: 10,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    600: {
+      items: 2,
+    },
+    1000: {
+      items: 3,
+    },
+  },
+};
+
 const Blog = () => {
+// first
+const owlCarouselRef = useRef(null);
+
+  useEffect(() => {
+    // Initialize Owl Carousel
+    $(owlCarouselRef.current).owlCarousel();
+
+    // Clean up when the component unmounts
+    return () => {
+      $(owlCarouselRef.current).trigger('destroy.owl.carousel');
+    };
+  }, []);
+// 
+  useEffect(() => {
+    // Initialize Owl Carousel here
+    $('.owl-carousel').owlCarousel();
+  }, []);
+
   return (
     <>
       {/* blog banner */}
@@ -26,6 +87,21 @@ const Blog = () => {
              <img src="cake.png" alt="..."></img>
           </div>
          </div>
+
+
+         {/* owl */}
+         <div ref={owlCarouselRef} className="owl-carousel">
+         <OwlCarousel options={options}>
+      {codeSnippets.map((snippet) => (
+        <div className="code-slide" key={snippet.id}>
+          <img src={snippet.image} alt={`Code Slide ${snippet.id}`} />
+          <pre>
+            <code className={`language-${snippet.language}`}>{snippet.code}</code>
+          </pre>
+        </div>
+      ))}
+    </OwlCarousel>
+    </div>
     </>
   );
 };
