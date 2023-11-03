@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import Styles from "./Blog.module.css";
+import ScrollReveal from "scrollreveal";
 
 const Blog = () => {
   const [showContent, setShowContent] = useState(false);
@@ -13,7 +14,19 @@ const Blog = () => {
   let clickContent = () => {
     setShowContentfirst(!showContentfirst);
   };
-  // carousel
+  // 
+  useEffect(() => {
+    // Initialize ScrollReveal
+    const sr = ScrollReveal({
+      // reset: true,
+      distance: "30px",
+      duration: 2500,
+      delay: 400,
+    });
+
+    // Use ScrollReveal to reveal elements
+    sr.reveal(".heading", { delay: 100 });
+  }, []);
   return (
     <>
       {/* blog banner */}
@@ -29,9 +42,11 @@ const Blog = () => {
       {/*  */}
       <div className={Styles.recent_blog_main}>
         <h2>Recent Blogs</h2>
+        <div className="heading">
         <div className={Styles.recent_blog_main_first}>
           <img src="cake.png" alt="..."></img>
           <img src="blanket.png" alt="..."></img>
+        </div>
         </div>
         {/*  */}
         {/* <div className={Styles.recent_blog_main_first}>
@@ -43,9 +58,12 @@ const Blog = () => {
       {/* owl */}
       <div className={Styles.blog_main_carousel}>
         {/* <h2>Latest Blog</h2> */}
+        
         <div className={Styles.blog_main_carousel_first}>
           <div className={Styles.blog_main_first_img}>
+          <div className="heading">
             <img src="first-DOG2.jpg" alt="..."></img>
+            </div>
             <h3>Feed A Stray Dog</h3>
             <p>
               Dogs are regarded as being a man's best buddy. A thousand canines
@@ -77,7 +95,9 @@ const Blog = () => {
         {/* second */}
         <div className={Styles.blog_main_carousel_first}>
           <div className={Styles.blog_main_second_img}>
+          <div className="heading">
             <img src="dental camp.jpg" alt="..."></img>
+            </div>
             <h3>Dental Camp</h3>
             <p>
               Dogs are regarded as being a man's best buddy. A thousand canines

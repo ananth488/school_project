@@ -4,6 +4,7 @@ import { FaFacebookSquare, FaInstagramSquare, FaYoutube, FaTwitterSquare, FaLink
 const Footer = () => {
     return (
         <div className={styles.footer_main}>
+            <div className={styles.footer_main_border}>
             <div className='container'>
                 <div className='row'>
                     {/* <div className='col'>
@@ -13,15 +14,16 @@ const Footer = () => {
                     <div className='col'>
                         <ul>
                         <img src='logo-2.png' alt='correct'></img>
-                            <li>E-Learning Software</li>
+                            {/* <li>E-Learning Software</li>
                             <li>Online Classes</li>
                             <li>Payment Gateway</li>
                             <li>School Mobile App</li>
-                            <li>Finance Management</li>
+                            <li>Finance Management</li> */}
                         </ul>
                     </div>
                     <div className='col'>
                         <ul>
+                            <h2>Contact</h2>
                             <li>Fee Management</li>
                             <li>Visitor management</li>
                             <li>Student Informantion</li>
@@ -31,11 +33,12 @@ const Footer = () => {
                     </div>
                     <div className='col'>
                         <ul>
+                        <h2>Our Support</h2>
                             <li>Transport App</li>
                             <li>HR management</li>
                             <li>Biometric Integration</li>
                             <li>Admission Management</li>
-                            <li>GPS & Bus Tracking</li>
+                           
                         </ul>
                     </div>
                     <div className='col'>
@@ -49,6 +52,8 @@ const Footer = () => {
                 </div>
                 <hr></hr>
             </div>
+            </div>
+          
             <div className={styles.footer_main_copyright}>
 
                 <div className={styles.footer_main_copyright_col1}>
