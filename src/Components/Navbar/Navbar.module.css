@@ -191,6 +191,7 @@ a:hover{
         top: 70px;
         height: 38vh;
         right: 66px;
+        /* left: 170px; */
         background-color: rgb(0, 0, 0);
         padding-bottom: 5px;
         width: 100%;
@@ -200,7 +201,6 @@ a:hover{
    .navbar_main::after{
     overflow: auto;
    }
-
     .navbar_main_second ul {
         display: grid;
         grid-template-columns: auto;
